@@ -7,24 +7,36 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## TodoList React + Chakra Ui
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para rodar o projeto é necessário clonar o repositório ou baixar o projeto zipado.
+Ao abrir no seu editor de código rodar o comando :
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```javascript 
+npm i || npm install 
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Após a instalação das dependencias para o projeto rodar o comando :
+
+```javascript
+npm run dev
+```
+
+O projeto vai funcionar por padrão no endereço e porta http://localhost:5173/
+
+As páginas podem ser "/login" , "/register", "/home"
+
+![image](https://github.com/user-attachments/assets/f020b11f-dbf3-4461-aacd-10688500bbb3)
+
+![image](https://github.com/user-attachments/assets/aa319c30-1b3d-4dfa-9db2-ed3e4c3b7ea0)
+
+![image](https://github.com/user-attachments/assets/26cfd21a-b8cc-4638-84fa-1519ae8bf81f)
+
+![image](https://github.com/user-attachments/assets/d35c75a6-ad0f-4fc0-bb9b-c7573e3a76f8)
+
+
+
+
+
+
+
